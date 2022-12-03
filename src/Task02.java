@@ -2,7 +2,7 @@
 
 import java.util.ArrayList;
 
-public class Tak02 {
+public class Task02 {
     public static void main(String[] args) {
         ArrayList<Integer> myList = new ArrayList<>();
         for (int i = 0; i < 21; i++) {
