@@ -1,6 +1,7 @@
+//Задан целочисленный список ArrayList. Найти минимальное, максимальное и среднее из этого списка
+
 import java.util.ArrayList;
 
-//Задан целочисленный список ArrayList. Найти минимальное, максимальное и среднее из этого списка
 public class Task03 {
     public static void main(String[] args) {
         ArrayList<Integer> myList = new ArrayList<>();
@@ -26,6 +27,6 @@ public class Task03 {
         System.out.println();
         System.out.printf("Максимальное число из списка равно %s", max);
         System.out.println();
-        System.out.printf("Среднее арифметическое всех чисел списка равно %s", (double) sum/myList.toArray().length);
+        System.out.printf("Среднее арифметическое всех чисел списка равно %s", (double) sum / myList.toArray().length);
     }
 }
